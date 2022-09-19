@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LC2 - Examen Parcial </title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="img/coffee.png" alt="">
+      </div>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#section-main-image">Inicio</a></li>
+        <li class="nav-item"><a href="#section-coffee">Nosotros</a></li>
+        <li class="nav-item"><a href="#article-products">La carta</a></li>
+        <li class="nav-item"><a href="#footer-contact">Reservas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <section id="section-main-image">
+      <!-- full width imagen -->
+      <h1>Un café diferente</h1>
+    </section>
+    <section id="section-coffee">
+      <div class="container">
+        <article id="article-coffee" class="article-section-coffee">
+          <h2>Nosotros</h2>
+          <p>
+            Después de años de recorrer cafetales, de trabajar directamente con los caficultores en
+            América Latina y África y de perfeccionarnos en los mejores centros internacionales
+            decidimos crear “Un Café Especial” en el corazón de Buenos Aires y con filosofía
+            propia; ofrecer los mejores cafés del mundo a un precio justo.
+          </p>
+          <p>
+            Nuestro café es un producto premium, con una calidad realmente
+            excepcional... una obra maestra que empezamos a preparar a miles
+            de kilómetros de tu taza. Allí seleccionamos los mejores granos de
+            Arábica para nuestro blend exclusivo, una combinación de 7
+            orígenes especialmente creada para dejarte con la boca abierta.
+            Elígelo y disfruta de todos sus beneficios.
+          </p>
+        </article>
+
+        <article id="article-products" class="article-section-coffee">
+          <h2>La Carta</h2>
+          <p>
+            Te brindamos los mejores productos para acompañar el mejor café,
+            todo para brindarte la mejor experiencia.
+          </p>
+          <div class="product-grid">
+            <table>
+              <thead>
+                <th class="table-head">Café</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Latte</td>
+                  <td>$14</td>
+                </tr>
+                <tr>
+                  <td>Espresso</td>
+                  <td>$16</td>
+                </tr>
+                <tr>
+                  <td>Capuccino</td>
+                  <td>$18</td>
+                </tr>
+                <tr>
+                  <td>Café Negro</td>
+                  <td>$20</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table>
+              <thead>
+                <th class="table-head">Bebidas</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Té Verde</td>
+                  <td>$14</td>
+                </tr>
+                <tr>
+                  <td>Limonada</td>
+                  <td>$16</td>
+                </tr>
+                <tr>
+                  <td>Agua mineral</td>
+                  <td>$10</td>
+                </tr>
+                <tr>
+                  <td>Jugo de Naranja</td>
+                  <td>$20</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table>
+              <thead>
+                <th class="table-head">Postres</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Torta de Chocolate</td>
+                  <td>$16</td>
+                </tr>
+                <tr>
+                  <td>Cupcake</td>
+                  <td>$14</td>
+                </tr>
+                <tr>
+                  <td>Pie de Limón</td>
+                  <td>$18</td>
+                </tr>
+                <tr>
+                  <td>Pie de Manzana</td>
+                  <td>$28</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer-contact">
+    <div class="container">
+      <div class="contact-data">
+        <div class="contact-info">
+          <h2>Contactate con nosotros</h2>
+          <ul>
+            <li>Av. Siempre Viva 123</li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form action="">
+            <div class="form-control">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="form-control">
+              <label for="phone">Teléfono</label>
+              <input type="number" name="phone" id="phone" />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" />
+            </div>
+            <div>
+              <label for="">Mensaje</label>
+              <textarea name="" id="" cols="20" rows="10"></textarea>
+            </div>
+            <div>
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpiar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

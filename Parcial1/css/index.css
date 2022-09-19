@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  padding: 60px 0px;
+}
+
+/* MENU: NAVBAR/HEADER */
+
+.navbar {
+  background-color: rgba(104, 12, 12, 0.925);
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-logo img {
+  display: inline-flex;
+  height: 44px; 
+  width: 44px;
+  height: 90%;
+  margin-left: 10px;
+  margin-top: 2px;
+  transition: .5s;
+}
+
+.nav-logo img:hover {
+  background-color: rgb(255, 115, 0);
+  border-radius: 10px;
+  border-width: .5px;
+  transition: .5s;
+}
+
+.nav-item a {
+  color: #eeeeee;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 10px;
+  padding: 10px;
+  transition: .5s;
+}
+
+.nav-item a:hover {
+  background-color: rgb(255, 115, 0);
+  border-radius: 10px;
+  border-width: .5px;
+  transition: .5s;
+}
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+  height: 60vh;
+  background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
+  display: flex;
+  justify-items: center;
+  align-items: center;  
+}
+
+#section-main-image h1 {
+  color: rgba(255, 255, 255, .7);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* SECTION COFFEE */
+
+#section-coffee {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+section .container {
+  background-color: whitesmoke;
+}
+
+.article-section-coffee {
+  margin-bottom: 86px;
+  text-align: center;
+}
+
+/* SECTION LA CARTA */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.table-head {
+  color: white;
+  background-color: rgba(104, 12, 12, 0.925);
+  width: 100%;
+}
+
+td {
+  padding: 0 15px;
+  text-align: justify;
+}
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+  background-color:  #58462c;
+  color: #eeeeee;
+  display: flex;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex-direction: column;
+}
+
+footer .container {
+  position: static;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.contact-form form {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+  margin: 40px 0px 20px 0px;
+}
+
+.contact-form form div button {
+  margin-top: 15px;
+  color: #58462c;
+  padding: 2px 30px;
+}
