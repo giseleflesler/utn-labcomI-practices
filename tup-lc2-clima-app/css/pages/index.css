@@ -5,3 +5,10 @@
     border-radius: 15px;
     box-shadow: 6px 4px 14px;
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    padding-top: 8px;
+}
